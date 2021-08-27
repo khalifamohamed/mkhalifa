@@ -1,9 +1,150 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<head>
+	<title>Hello, World!</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css" integrity="sha512-F7WyTLiiiPqvu2pGumDR15med0MDkUIo5VTVyyfECR5DZmCnDhti9q5VID02ItWjq6fvDfMaBaDl2J3WdL1uxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				<a href="https://www.linkedin.com/in/mohamedkhalifaelsayed" target="_blank" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-linkedin"></i>
+					</span>
+				</a>
+				<a href="http://github.com/khalifamohamed" target="_blank" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-github"></i>
+					</span>
+				</a>
+				<a href="mailto:mohamed.khalifa.els@gmail.com" target="_blank" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-at"></i>
+					</span>
+				</a>				
+			</div>
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#services">Skills</a>
+				<a class="nav-item" href="#CV">CV</a>
+			</div>
+
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<div class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</nav>
+				
+		<!-- About Me -->
+		<section id="skills" class="section section-1">
+			<div class="container has-text-centered">
+				<img class="avatar" src="assets/img/profile.png">
+				<h1 id="name">Mohamed Khalifa</h1>
+				<h2 id="prof">Software Engineer</h2>
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+					A Software Enthusiast seeking perfection knowing that he will never be able to find it.
+				</p>
+			</div>
+		</section>
+		
+		<!-- Projects -->
+		
+		<section  id="services" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Services</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<div class="column">
+						<div class="card services">
+							<img src="./assets/img/internet.png" class="card-img-top s-img" alt="...">
+							<div class="card-body">
+							  <h5 class="card-title">Back End Development</h5>
+							  <p>Developing Efficient & Effective Logic for the Back-end of your website, Saving you both the time and effort of having to worry about the bugs and the performance of your website.</p>
+							</div>
+						  </div>
+					</div>
+					<!-- Skill 2 -->
+					<div class="column">
+						<div class="card services">
+							<img src="./assets/img/smart-city.png" class="card-img-top s-img" alt="...">
+							<div class="card-body">
+							  <h5 class="card-title">Smart City Solutions</h5>
+							  <p>I was chosen to work as a Project Engineer on the project of the first smart city ever in Egypt.</br>So I have prior experience now in a field which is not accustomed to many developers and PMs.</p>
+							</div>
+						  </div>
+					</div>
+					<!-- Skill 3 -->
+					<div class="column">
+						<div class="card services">
+							<img src="./assets/img/consulting.png" class="card-img-top s-img" alt="...">
+							<div class="card-body">
+							  <h5 class="card-title">IT Consulting</h5>
+							  <p>If you are seekling perfection like me, then you are seeking the impossible but I could help you in your journey and consult you with the knowledge I have acquired in many Technical fields.</p>
+							</div>
+						  </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Social -->
+		<section id="CV" class="section section-3">
+			<div class="column">
+				<div class="card services">
+					<img src="./assets/img/curriculum-vitae.png" class="card-img-top s-img">
+					<div class="card-body">
+					<h5 class="card-title">My CV</h5>
+					<p>Take a peek at my Journey and skills</p>
+					<a href="./assets/Mohamed Khalifa - CV.pdf" download><button class="btn"><i class="fa fa-download"></i>&nbsp; Download</button></a>
+				</div>
+				</div>
+			</div>
+		</section>	
+		
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			<div class="copyright">
+				<p> Copyright &copy; M.Khalifa <script>document.write(new Date().getFullYear())</script></p>
+			 </div>
+		</section>
+		
+		<!-- Scripts  -->
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.min.js" integrity="sha512-NWNl2ZLgVBoi6lTcMsHgCQyrZVFnSmcaa3zRv0L3aoGXshwoxkGs3esa9zwQHsChGRL4aLDnJjJJeP6MjPX46Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="controller.js"></script>
+		<script src="src.js"></script>
+	</body>	
 </html>
